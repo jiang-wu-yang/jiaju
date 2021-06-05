@@ -1,0 +1,79 @@
+.container {
+  width: 1200px;
+  margin: 0 auto; }
+
+a {
+  display: block; }
+
+.server-top {
+  height: 40px;
+  background-color: #0058AA; }
+  .server-top .server {
+    font-size: 18px;
+    color: #FFFFFF;
+    float: right;
+    width: 212px;
+    line-height: 40px; }
+
+header {
+  height: 120px; }
+  header .nav-logo {
+    width: 192px;
+    float: left;
+    margin-right: 72px; }
+    header .nav-logo h3 {
+      font-size: 64px;
+      color: #0058AA;
+      line-height: 91px; }
+
+header .nav-nav {
+  width: 570px;
+  float: left;
+  padding-bottom: 10px; }
+  header .nav-nav ul li {
+    float: left;
+    margin-right: 50px;
+    margin-top: 17px;
+    text-align: center; }
+    header .nav-nav ul li .pic {
+      margin-bottom: 15px; }
+    header .nav-nav ul li .word {
+      font-size: 16px;
+      color: #545454; }
+
+header .nav-search {
+  width: 280px;
+  float: left;
+  padding-top: 25px;
+  position: relative; }
+  header .nav-search input {
+    width: 229px;
+    height: 36px;
+    border: 1px solid #D3D3D3;
+    outline: none; }
+  header .nav-search button {
+    width: 48px;
+    height: 38px;
+    background-color: #0058AA;
+    border: none;
+    outline: none;
+    position: absolute;
+    right: 1px; }
+
+.clearfix::after {
+  content: "";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clearfix {
+  display: inline-block; }
+
+html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/*# sourceMappingURL=common.css.map */

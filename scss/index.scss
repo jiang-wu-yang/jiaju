@@ -1,0 +1,225 @@
+@charset "UTF-8";
+@import 'common';
+
+//轮播
+.banner {
+    .banner-title {
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+}
+
+
+//了解我们
+.lj {
+    height: 760px;
+    padding-top: 38px;
+    padding-bottom: 82px;
+    box-sizing: border-box;
+    // background-color: red;
+
+    .lj-lunbo {
+        width: 1075px;
+        margin: 0 auto;
+
+        ul {
+            li {
+                width: 175px;
+                margin-right: 50px;
+                float: left;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                a {
+                    font-size: 18px;
+                    color: #838383;
+                }
+            }
+        }
+    }
+
+}
+
+.common {
+    .con-border {
+        border: 2px solid #808080;
+        width: 1200px;
+        margin: 0 auto;
+        margin-top: 75px;
+        margin-bottom: 65px;
+    }
+
+    .about {
+        position: relative;
+
+        .about-center {
+            font-size: 32px;
+            color: #696868;
+            background-color: white;
+            position: absolute;
+            top: -110px;
+            left: 50%;
+            margin-left: -65px;
+            z-index: 200;
+            text-align: center;
+        }
+    }
+}
+
+.lj {
+    .message-left {
+        width: 238px;
+        margin-right: 200px;
+        float: left;
+
+        h3 {
+            font-size: 26px;
+            color: #0058AA;
+        }
+
+        .message-tit {
+            font-size: 21px;
+            color: #5A5A5A;
+            line-height: 41px;
+        }
+
+        .message-x {
+            width: 142px;
+            height: 4px;
+            background: #0058AA;
+        }
+
+        .message-con {
+            font-size: 18px;
+            color: #7B7C7C;
+            line-height: 26px;
+            margin-top: 20px;
+        }
+
+        button {
+            width: 130px;
+            height: 38px;
+            background: #0058AA;
+            margin-top: 20px;
+            border: none;
+            font-size: 18px;
+            color: #FFFFFF;
+            text-align: center;
+        }
+    }
+
+    .message-center {
+        width: 384px;
+        height: 256px;
+        float: left;
+    }
+
+    .message-right {
+        float: right;
+
+        ul {
+            li {
+                width: 273px;
+                height: 70px;
+                background: #CCCCCC;
+                padding: 15px 20px 0;
+                box-sizing: border-box;
+                margin-bottom: 15px;
+
+                .pic {
+                    float: left;
+                }
+
+                .word {
+                    float: left;
+                    padding-left: 15px;
+                    margin-bottom: 10px;
+
+                    span {
+                        font-size: 22px;
+                        color: #FFFFFF;
+                    }
+
+                    p {
+                        font-size: 12px;
+                        color: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//精品推荐
+.jp {
+    background: #EFF0F4;
+    height: 590px;
+    margin-top: 80px;
+
+    .about {
+        padding-top: 70px;
+
+        .about-center {
+            text-align: center;
+
+            h3 {
+                font-size: 32px;
+                color: #696868;
+            }
+
+            p {
+                font-size: 18px;
+                color: #9B9B9B;
+            }
+        }
+    }
+}
+
+.jp {
+    .jp-lunbo {
+        width: 1100px;
+        margin: 0 auto;
+        margin-top: 50px;
+
+        ul {
+            li {
+                float: left;
+                width: 345px;
+                height: 326px;
+                margin-right: 23px;
+                position: relative;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                .jp-inner {
+                    width: 345px;
+                    height: 45px;
+                    text-align: center;
+                    line-height: 45px;
+                    background: rgba(0, 0, 0, 0.50);
+                    position: absolute;
+                    bottom: 0;
+
+                    span {
+                        font-size: 16px;
+                        color: #FFFFFF;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//new
+.new{
+    height: 545px;
+}

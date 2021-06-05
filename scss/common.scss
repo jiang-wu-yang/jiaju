@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+//主体宽度居中
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    display: block;
+}
+
+
+//服务热线
+.server-top {
+    height: 40px;
+    background-color: #0058AA;
+
+    .server {
+        font-size: 18px;
+        color: #FFFFFF;
+        float: right;
+        width: 212px;
+        line-height: 40px;
+    }
+}
+
+//家居导航logo
+header {
+    height: 120px;
+
+    .nav-logo {
+        width: 192px;
+        float: left;
+        margin-right: 72px;
+        h3{
+            font-size: 64px;
+            color: #0058AA;
+            line-height: 91px;
+        }
+        
+    }
+}
+
+header {
+    .nav-nav {
+        width: 570px;
+        float: left;
+        padding-bottom: 10px;
+        ul {
+            li {
+                float: left;
+                margin-right: 50px;
+                margin-top: 17px;
+                text-align: center;
+                .pic {
+                    margin-bottom: 15px;
+                }
+
+                .word {
+                    font-size: 16px;
+                    color: #545454;
+                }
+            }
+        }
+    }
+}
+header{
+    .nav-search{
+        width: 280px;
+        float: left;
+        padding-top: 25px;
+        position: relative;
+        input{
+            width: 229px;
+            height: 36px;
+            border: 1px solid #D3D3D3;
+            // border: none;
+            outline: none;
+        }
+        button{
+            width: 48px;
+            height: 38px;
+            background-color: #0058AA;
+            border: none;
+            outline: none;
+            position: absolute;
+            right: 1px;
+        }
+    }
+}
+
+
+//clearFix  清除浮动
+.clearfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
